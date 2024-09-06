@@ -13,7 +13,7 @@ public class IO {
                 input = scanner.nextDouble();
                 valid = true;
             } else {
-                System.out.println("\nEntrada inválida. Por favor, digite um decimal válido.");
+                scanner.next();
             }
         }
 
