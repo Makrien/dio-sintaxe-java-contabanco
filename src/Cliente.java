@@ -41,6 +41,7 @@ public class Cliente {
         setNumber(IO.getInt("Número: "));
         setAgency(IO.getString("Agência: "));
         setBalance(IO.getDouble("Saldo: "));
+
         System.out.printf("Olá %s, obrigado por criar sua conta em nosso banco!\n\nSua agência é %s, conta nº %d e seu saldo de R$%.2f já está disponível para o saque.\n\n", getName(), getAgency(), getNumber(), getBalance());
     }
 }

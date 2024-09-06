@@ -7,13 +7,10 @@ public class ContaTerminal {
         List<Cliente> Clientes = new ArrayList<>();
 
         while (option != 3) {
-            // print menu
             IO.printMenuPrincipal();
 
-            // get integer as option
             option = IO.getInt("Opção: ", 1, 3);
 
-            // cadastrar novo cliente
             if (option == 1) {
                 Cliente cliente = new Cliente();
                 cliente.registerClient();
